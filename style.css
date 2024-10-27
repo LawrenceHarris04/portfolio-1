@@ -1,6 +1,7 @@
 body{
     background-color: #f9eefc;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 nav{
     background-color: #660066;
@@ -36,13 +37,11 @@ nav{
     margin-left: auto;
     margin-right: auto;
     margin-top: 2.5%;
-    align-content: center;
+    text-align: center;
 }
 
 #intro-photo{
-    width: 20%;
-    margin: auto;
-    align-self: auto;
+    width: 40%;
 }
 #skills-section{
 
