@@ -5,17 +5,25 @@ body{
 }
 nav{
     background-color: #660066;
+    padding-top:10px;
     height: 50px;
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
+    
+    
     border-bottom: #2e002e;
     border-bottom-width: 5px;
     border-bottom-style: solid;
 }
 .nav-button{
-    color: #f9eefc;
+    color: #660066;
+    text-align: center;
+    text-decoration: none;
+    background-color: #f9eefc;
+    border-radius: 10px;
+    padding: 10px 20px;
     height: 100%;
     width: 33%;
     margin: 5%;
@@ -23,11 +31,12 @@ nav{
 }
 
 .section{ 
+    margin: auto;
+    padding-top: 50px;
+    padding-botton: 20px;
     border-top: 5px;
     border-top-style: solid;
     border-top-color: #660066;
-    margin: auto;
-    margin-top: 50px;
 }
 .section-title{
     color:#660066;
@@ -50,6 +59,7 @@ nav{
 
 #intro-photo{
     width: 40%;
+    border-radius: 10px;
 }
 #skills-section{
 
