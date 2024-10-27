@@ -5,6 +5,10 @@ body{
 nav{
     background-color: #660066;
     height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 .nav-button{
     color: #f9eefc;
@@ -15,10 +19,14 @@ nav{
 }
 
 .section{ 
-    border-bottom: 5px;
-    border-bottom-style: solid;
-    border-bottom-color: #660066;
+    border-top: 5px;
+    border-top-style: solid;
+    border-top-color: #660066;
     margin: auto;
+    margin-top: 50px;
+}
+#intro-section{
+    
 }
 #intro{
     background-color: #d896ff;
