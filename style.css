@@ -1,7 +1,7 @@
 body{
     background-color: #f9eefc;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    color: #f9eefc;
 }
 nav{
     background-color: #660066;
@@ -10,6 +10,9 @@ nav{
     position: fixed;
     top: 0;
     left: 0;
+    border-bottom: #2e002e;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
 }
 .nav-button{
     color: #f9eefc;
@@ -26,11 +29,16 @@ nav{
     margin: auto;
     margin-top: 50px;
 }
-#intro-section{
-    
+.section-title{
+    color:#660066;
 }
-#intro{
-    background-color: #d896ff;
+#intro-section{
+    border-top: 0px;
+}
+#intro,
+#programming-languages-section,
+#software-section{
+    background-color: #660066;
     border-radius: 10px;
     width: 60%;
     padding: 1%;
@@ -52,7 +60,7 @@ nav{
 }
 
 .project{
-    background-color: #d896ff;
+    background-color: #660066;
     border-radius: 10px;
     width: 80%;
     padding: 1%;
@@ -74,14 +82,11 @@ nav{
 }
 .project-image{
     width: 20%;
-    align-self: left;
 }
 .project-text{
     width: 70%;
-    align-self: right;
 }
 .project-description{
-    text-align: right;
 
 }
 .project-skills{
