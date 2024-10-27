@@ -1,0 +1,84 @@
+body{
+    background-color: #f9eefc;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav{
+    background-color: #660066;
+    height: 50px;
+}
+.nav-button{
+    color: #f9eefc;
+    height: 100%;
+    width: 33%;
+    margin: 5%;
+    text-align: center;
+}
+
+.section{ 
+    border-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: #660066;
+    margin: auto;
+}
+#intro{
+    background-color: #d896ff;
+    border-radius: 10px;
+    width: 60%;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5%;
+}
+
+#intro-photo{
+    width: 20%;
+    margin: auto;
+    align-self: auto;
+}
+#skills-section{
+
+}
+
+#projects-section{
+
+}
+
+.project{
+    background-color: #d896ff;
+    border-radius: 10px;
+    width: 80%;
+    padding: 1%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+#right-align{
+    margin-left: auto;
+    margin-right: 1%;
+}
+
+#left-align{
+    margin-left: 1%;
+    margin-right: auto;
+}
+.project-name{
+   
+}
+.project-image{
+    width: 20%;
+    align-self: left;
+}
+.project-text{
+    width: 70%;
+    align-self: right;
+}
+.project-description{
+    text-align: right;
+
+}
+.project-skills{
+
+}
+.project-status{
+
+}
