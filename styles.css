@@ -1,7 +1,9 @@
 :root {
-  --text-color: #1a1c20;
-  --link-color: #4a76ee;
-  --background-color: #eeeff1;
+  /*--text-color: #1a1c20;*/
+  /*--link-color: #4a76ee;*/
+  --text-color: #5b008f;
+  --link-color: #8300cd;
+  --background-color: #f1eef1;
 }
 
 * {
@@ -154,7 +156,7 @@ nav .right a span {
   font-size: 18px;
 }
 
-/* SECTION 3: Testimony */
+/* SECTION 3: Projects */
 .testimony-section {
   padding: 0 50px;
   margin-bottom: 100px;
