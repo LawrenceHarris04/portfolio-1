@@ -1,92 +1,268 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Isabel Hampton's Portfolio</title>
-        <link rel = "icon" type = "image/x-icon" href = ""> <!--favicon-->
-        <link href = "style.css" rel = "stylesheet" type = "text/css" /> <!--link for css file-->
-        <meta name = "viewport" content = "width=device-width, initial-scale = 1.0" >
-    </head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <body>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        <nav>
-            <a class = "nav-button" href = "#intro-section">About</a>
-            <a class = "nav-button" href = "#skills-section">Skills</a>
-            <a class = "nav-button" href = "#projects-section">Projects</a>
-            <a class = "nav-button" href = "#contact-section">Contact</a>
-        </nav>
+  <link rel="stylesheet" href="styles.css">
 
+  <title>Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">Isabel Hampton</a>
+    </div>
 
-        <div class = "section" id = "intro-section">
-            <h1 class = "section-title">About Me</h1>
-            <div id = "intro">
-                <img id = "intro-photo" src = "images/Photo.jpg" alt = "Picture of me">
-                <h3>Hi I'm Izzy! A passionate 2nd year student in Computer Games Technology, excited to explore new challenges to continue building programming and development skills.</h3>
-            </div>
-            <p></p>
-            
+    <div class="right">
+      <!--<a href="http://github.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>-->
+      
+      <a href="https://www.linkedin.com/in/isabel-hampton05/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="mailto:isabel.hampton@icloud.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Izzy! 👋</h2>
+        <p>I'm a 2nd year Computer Games Technology student, looking to expand my programming skills by exploring new challenges.</p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#testimony">
+            <i class="fa-solid fa-pen"></i>
+            <span>Projects</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="images/Photo.jpg" alt="john doe headshot">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+        Programming languages:
         </div>
 
-
-        <div class = "section" id = "skills-section" href>
-            <h1 class = "section-title">Skills</h1>
-            <div id = "programming-languages-section">
-                <h2>Programming Languages</h2>
-            <ul>
-                <li>C#</li>
-                <li>C++</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Python</li>
-            </ul>
-            </div>
-            <div id = "software-section">
-                <h2>Software</h2>
-                <ul>
-                    <li>Unity</li>
-                    <li>Unreal Engine</li>
-                    <li>Visual Studio</li>
-                    <li>GitHub</li>
-                    <li>Maya 2024</li>
-                    <li>Microsoft Associate Certification in Word, Excel and PowerPoint</li>
-                </ul>
-            </div>   
-        </div>
-
-
-        <div class = "section" id = "projects-section">
-            <h1 class = "section-title">Projects</h1>
-
-            <div class = "project" id = "left-align">
-                <h2 class = "project-name">Before the Storm</h2>
-                <img class = "project-image" src = "images/BeforeTheStorm.jpg" alt = "Project thumbnail">
-                <span class = "project-text">
-                    <p class = "project-description">3D storm survival game developed with a small team in Unity for the Brackey’s Game Jam 2024.</p>
-                    <p class = "project-skills">Skills: C#, Unity </p>
-                    <p class = "project-status">Status: Completed</p>       
-                </span>
-                </div>
-
-            <div class = "project"id = "right-align">
-                <h2 class = "project-name">Ruinscale</h2>
-                <img class = "project-image" src = "images/Ruinscale.png" alt = "Project thumbnail">
-                <p class = "project-description">3D storm survival game developed with a small team in Unity for the Brackey’s Game Jam 2024.</p>
-                <p class = "project-skills">Skills: C#, Unity </p>
-                <p class = "project-status">Status: Completed</p>
-            </div>
-        </div>
-
-
-        <div class = "section" id = "contact-section">
-            <h1 class = "section-title">Contact Me</h1>
-            <a href = "http://www.linkedin.com/in/isabel-hampton05/"> <img src = "images/linkedin.png" > </a>
-            <h3><a href = "">Email</a></h3>
-            <p></p>
-            
+      <div class="cells">
+        <div class="cell">
+          <img src="images/logos/html-logo.webp" alt="html logo">
+          <span>HTML</span>
         </div>
         
-    </body>  
+        <div class="cell">
+          <img src="images/logos/css-logo.webp" alt="css logo">
+          <span>CSS</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/logos/javascript-logo.webp" alt="javascript logo">
+          <span>JavaScript</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/logos/C++-Logo.png" alt="c++ logo">
+          <span>C++</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/logos/csharp-logo.png" alt="c# logo">
+          <span>C#</span>
+        </div>
+      </div>
 
+      <div class="text">
+        Software:
+        </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="images/logos/unity.png" alt="html logo">
+          <span>Unity</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/logos//unreal.webp" alt="css logo">
+          <span>Unreal</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/logos/visual-studio.jpg" alt="javascript logo">
+          <span>Visual Studio</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/logos/github.png" alt="c++ logo">
+          <span>GitHub</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/logos/maya.jpg" alt="c++ logo">
+          <span>Maya</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/logos/word.png" alt="c# logo">
+          <span>Microsoft Word</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/logos/excel.jpg" alt="c# logo">
+          <span>Microsoft Excel</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/logos/powerpoint.jpg" alt="c# logo">
+          <span>Microsoft PowerPoint</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: Projects -->
+    <section id="testimony" class="testimony-section">
+      <h2>Projects</h2>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="images/projects/BeforeTheStorm.jpg">
+          <p>Mythfall: The Forest of the Damned</p>
+          <p>Skills: C++, Visual Studio, GitHub</p>
+        </div>
+
+        <div class="text">
+          Survival game developed in C++ with Visual Studio, that I am currently working on as part of my university course.
+        </div>
+      </div>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="images/projects/BeforeTheStorm.jpg">
+          <p>Coastal Carnage</p>
+          <p>Skills: HTML, CSS, JavaScript, VS Code, GitHub</p>
+        </div>
+
+        <div class="text">
+          Online multiplayer wave survival web game, developed in HTML, CSS and JavaScript with Visual Studio Code, that I am currently working on as part of my university course.
+         </div>
+      </div>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="images/projects/BeforeTheStorm.jpg">
+          <p>Virtual Arcade</p>
+          <p>Skills: C#, Unity, GitHub</p>
+        </div>
+
+        <div class="text">
+          3D storm survival game developed with a small team in Unity for the Brackey’s Game Jam 2024, in which I was responsible for implementing the storm simulations using Unity’s physics and particle systems.
+         </div>
+      </div>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="images/projects/BeforeTheStorm.jpg">
+          <p>Before The Storm</p>
+          <p>Skills: C#, Unity</p>
+        </div>
+
+        <div class="text">
+          3D storm survival game developed with a small team in Unity for the Brackey’s Game Jam 2024, in which I was responsible for implementing the storm simulations using Unity’s physics and particle systems.
+         </div>
+      </div>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="images/projects/BeforeTheStorm.jpg">
+          <p>Before The Storm</p>
+          <p>Skills: C#, Unity</p>
+        </div>
+
+        <div class="text">
+          3D storm survival game developed with a small team in Unity for the Brackey’s Game Jam 2024, in which I was responsible for implementing the storm simulations using Unity’s physics and particle systems.
+         </div>
+      </div>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="images/projects/BeforeTheStorm.jpg">
+          <p>Before The Storm</p>
+          <p>Skills: C#, Unity</p>
+        </div>
+
+        <div class="text">
+          3D storm survival game developed with a small team in Unity for the Brackey’s Game Jam 2024, in which I was responsible for implementing the storm simulations using Unity’s physics and particle systems.
+         </div>
+      </div>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="images/projects/BeforeTheStorm.jpg">
+          <p>Before The Storm</p>
+          <p>Skills: C#, Unity</p>
+        </div>
+
+        <div class="text">
+          3D storm survival game developed with a small team in Unity for the Brackey’s Game Jam 2024, in which I was responsible for implementing the storm simulations using Unity’s physics and particle systems.
+         </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat fugit maiores atque architecto saepe tenetur quasi reiciendis illum sint doloremque alias inventore, asperiores maxime pariatur totam hic assumenda repudiandae, iusto quisquam nisi! Eaque doloremque perspiciatis minus voluptate dicta. A ratione autem dolor iure libero numquam voluptatem nobis laborum et corporis.
+        </div>
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
 </html>
