@@ -178,11 +178,21 @@ nav .right a span {
   flex: 2;
 }
 
-.testimony-section .group .person-details img {
+.testimony-section .group .person-details img
+ {
   width: 200px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.testimony-section .group .person-details video{
+  width: 300px;
+  aspect-ratio: 3 / 2;
+  padding: 2px;
+  object-fit: cover;
+  border-radius: 5%;
   margin-bottom: 10px;
 }
 
