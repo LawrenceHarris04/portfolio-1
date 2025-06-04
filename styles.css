@@ -1,9 +1,9 @@
 :root {
   /*--text-color: #1a1c20;*/
   /*--link-color: #4a76ee;*/
-  --text-color: #5b008f;
-  --link-color: #8300cd;
-  --background-color: #f1eef1;
+  --text-color: #007171;
+  --link-color: #00999a;
+  --background-color: #ddfafa;
 }
 
 * {
@@ -178,7 +178,7 @@ nav .right a span {
   padding-bottom: 10px;
   padding-top: 10px;
   border-top-style: solid;
-  border-top-color: #5b008f;
+  border-top-color: #007171;
   border-top-width: 2px;
 }
 
