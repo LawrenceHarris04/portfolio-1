@@ -32,9 +32,19 @@ body {
 }
 
 @media (max-width: 768px) {
-  .hero {
+   .hero {
     flex-direction: column;
+    align-items: center;
     text-align: center;
+  }
+
+  .hero-text {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+
+  .hero-image {
+    max-width: 80%;
   }
 }
 
@@ -44,7 +54,7 @@ body {
 
 .hero-image {
   max-width: 100%;
-  width: 100%;
+  width: 300px;
   height: auto;
   border-radius: 10px;
   display: block;
