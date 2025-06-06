@@ -1,345 +1,243 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lawrence Harris | Portfolio</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
   <link rel="stylesheet" href="styles.css">
-
-  <title>Portfolio</title>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <!-- NAVBAR -->
-  <nav>
-    <div class="left">
-      <a href="/">Lawrence Harris</a>
-    </div>
-
-    <div class="right">
-      <!--<a href="http://github.com" target="_blank" rel="noopener noreferrer">
-        <i class="fa-brands fa-github"></i>
-        <span>Github</span>
-      </a>-->
-      
-      <a href="https://www.linkedin.com/in/lawrence-harris04/" target="_blank" rel="noopener noreferrer">
-        <i class="fa-brands fa-linkedin"></i>
-        <span>Linkedin</span>
-      </a>
-      
-      <a href="mailto:lawrence.harris467@gmail.com">
-        <i class="fa-solid fa-envelope"></i>
-        <span>Email</span>
-      </a>
+  <nav class="navbar">
+    <div class="logo">Lawrence Harris</div>
+    <div class="nav-links">
+      <a href="https://www.linkedin.com/in/lawrence-harris04/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="mailto:lawrence.harris467@gmail.com"><i class="fas fa-envelope"></i> Email</a>
     </div>
   </nav>
 
-  <main>
-    <!-- SECTION 1: Hero -->
-    <section class="hero-section">
-      <div class="text">
-        <h2>Hi, I'm Lawrence!</h2>
-        <p>I'm a software developer and Computer Games Technology graduate student and I'm looking to learn new skills and expand my skillset. I am incredibly passionate about programming and every aspect that goes into games. I enjoy game design, art, music and audio and I am exploring all of that in my current project, Tomb of the Darkblade!</p>
+  <header class="hero">
+    <div class="hero-text">
+      <h1>Hi, I'm Lawrence!</h1>
+      <p>I'm a software developer and Computer Games Technology graduate passionate about programming, game design, art, music, and audio. 
+        I'm exploring all of these in further depth currently in my project, <strong>Tomb of the Darkblade</strong>!</p>
+    </div>
+    <img src="images/lawrence.jpg" alt="Lawrence Harris" class="hero-image">
+  </header>
 
-        <div class="links">
-          <a href="#skills">
-            <i class="fa-solid fa-code"></i>
-            <span>Skills</span>
-          </a>
-          <a href="#projects">
-            <i class="fa-solid fa-folder-open"></i>
-            <span> Projects</span>
-          </a>
-          <a href="#wips">
-            <i class="fa-solid fa-pen"></i>
-            <span>Works in Progress</span>
-          </a>
-        </div>
+  <section class="skills">
+    <h2>Skills</h2>
+    <div class="skills-category">
+      <h3>Programming Languages</h3>
+      <div class="skills-grid">
+        <div class="skill-card"><img src="images/logos/csharp-logo.png"><span>C#</span></div>
+        <div class="skill-card"><img src="images/logos/C++-Logo.png"><span>C++</span></div>
+        <div class="skill-card"><img src="images/logos/html-logo.webp"><span>HTML</span></div>
+        <div class="skill-card"><img src="images/logos/css-logo.webp"><span>CSS</span></div>
+        <div class="skill-card"><img src="images/logos/javascript-logo.webp"><span>JavaScript</span></div>
       </div>
+    </div>
 
-      <div class="headshot">
-        <img src="images/lawrence.jpg" alt="Headshot of Lawrence Harris">
+    <div class="skills-category">
+      <h3>Software</h3>
+      <div class="skills-grid">
+        <div class="skill-card"><img src="images/logos/unity.png"><span>Unity</span></div>
+        <div class="skill-card"><img src="images/logos/unreal.png"><span>Unreal</span></div>
+        <div class="skill-card"><img src="images/logos/visual-studio.png"><span>Visual Studio</span></div>
+        <div class="skill-card"><img src="images/logos/github.png"><span>GitHub</span></div>
+        <div class="skill-card"><img src="images/logos/maya.png"><span>Maya</span></div>
+        <div class="skill-card"><img src="images/logos/word.png"><span>Word</span></div>
+        <div class="skill-card"><img src="images/logos/excel.png"><span>Excel</span></div>
+        <div class="skill-card"><img src="images/logos/powerpoint.png"><span>PowerPoint</span></div>
+        <div class="skill-card"><img src="images/logos/fmod.png"><span>FMOD</span></div>
+        <div class="skill-card"><img src="images/logos/aseprite.png"><span>Aseprite</span></div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- SECTION 2: Skills -->
-    <section id="skills" class="skills-section">
-      <h2>Skills</h2>
-      <div class="text" style = "border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #007171; font-weight: bold;">
-        Programming languages:
-        </div>
 
-      <div class="cells">
-        <div class="cell">
-          <img src="images/logos/csharp-logo.png" alt="c# logo">
-          <span>C#</span>
-        </div>
-
-        <div class="cell">
-          <img src="images/logos/C++-Logo.png" alt="c++ logo">
-          <span>C++</span>
-        </div>
-        
-        <div class="cell">
-          <img src="images/logos/html-logo.webp" alt="html logo">
-          <span>HTML</span>
-        </div>
-        
-        <div class="cell">
-          <img src="images/logos/css-logo.webp" alt="css logo">
-          <span>CSS</span>
-        </div>
-        
-        <div class="cell">
-          <img src="images/logos/javascript-logo.webp" alt="javascript logo">
-          <span>JavaScript</span>
-        </div>
-
-        <!--div class="cell">
-          <img src="images/logos/python.png" alt="python logo">
-          <span>Python</span>
-        </div-->
-        
-        
-      </div>
-
-      <div class="text"  style = "border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #007171; font-weight: bold;">
-        Software:
-        </div>
-
-      <div class="cells">
-        <div class="cell">
-          <img src="images/logos/unity.png" alt="html logo">
-          <span>Unity</span>
-        </div>
-        
-        <div class="cell">
-          <img src="images/logos//unreal.png" alt="css logo">
-          <span>Unreal</span>
-        </div>
-        
-        <div class="cell">
-          <img src="images/logos/visual-studio.png" alt="javascript logo">
-          <span>Visual Studio</span>
-        </div>
-
-        <div class="cell">
-          <img src="images/logos/github.png" alt="github logo">
-          <span>GitHub</span>
-        </div>
-        
-        <div class="cell">
-          <img src="images/logos/maya.png" alt="maya logo">
-          <span>Maya</span>
-        </div>
-        
-        <div class="cell">
-          <img src="images/logos/word.png" alt="microsoft word logo">
-          <span>Microsoft Word</span>
-        </div>
-
-        <div class="cell">
-          <img src="images/logos/excel.png" alt="microsoft excel logo">
-          <span>Microsoft Excel</span>
-        </div>
-
-        <div class="cell">
-          <img src="images/logos/powerpoint.png" alt="microsoft powerpoint logo">
-          <span>Microsoft PowerPoint</span>
-        </div>
-
-        <div class="cell">
-          <img src="images/logos/fmod.png" alt="fmod logo">
-          <span>FMOD</span>
-        </div>
-
-        <div class="cell">
-          <img src="images/logos/aseprite.png" alt="aseprite logo">
-          <span>Aseprite</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION 3: Projects -->
-    <section id="projects" class="testimony-section">
+  <!-- SECTION 3: Projects -->
+    <section class="projects">
       <h2>Projects</h2>
 
-      <div class="group">
-        <div class="person-details">
+      <div class="project-card">
+        <div class="title-description">
+          <p style = "font-weight:bold;">Tomb of the Darkblade (Work in Progress)</p>
+          <p><b>Skills:</b> C#, Unity, GitHub, Aseprite</p>
+          <p>A polished turn-based RPG featuring procedurally generated levels created for my university Individual Honours Project, that I am continuing development on.</p>
+         <!--
           <video controls autoplay loop> 
             <source src = "videos/" type = "video/mp4">
-          </video>
-          <p>Tomb of the Darkblade</p>
-          <p>Skills: C#, Unity, GitHub, Aseprite</p>
+          </video>-->
+          
         </div>
 
         <div class="text">
-          <p style = "font-weight:bold">Work in Progress</p>
-          <p>A lengthy, polished turn-based RPG featuring procedurally generated levels created for my Individual Honours Project turned personal project</p>
-          <p style = "font-weight:bold">So far, I have achieved:</p>
+           <p style = "font-weight:bold">So far, I have achieved:</p>
           <ul>
-            <li>Initially a research project into how procedural generation affects the player experience in turn-based RPGs</li>
-            <li>A fully functional turn-based battle system.</li>
-            <li>Procedural generation using cellular automata that has endless customisability.</li>
-            <li>Learnt more about Unity animation and animation events.</li>
-            <li>Developed more skills in UI/UX design and functionality.</li>
-            <li>Developing my skills in 2D art and animations.</li>
-            <li>Soon to include my first time creating sounds for a solo project, and music.</li>
-            <li>Planned to release on steam and itch when completed.</li>
+            <li>Producing a written research project into how procedural generation affects the player experience in turn-based RPGs.</li>
+            <li>Creating a fully functional turn-based battle system.</li>
+            <li>Implementing procedural generation using cellular automata to create customisable levels.</li>
+            <li>Learning more about Unity's animation system and using animation events.</li>
+            <li>Enhancing my skills in UI/UX design and functionality.</li>
+            <li>Developing my proficiency with Aseprite creating 2D art and animations.</li>
+            <li>Planning to inmplement my own audio and music usin FMOD.</li>
+            <li>Planning to release completed builds on Steam and Itch.io soon.</li>
           </ul>
         </div>
       </div>
 
-      <div class="group">
-        <div class="person-details">
-          <video controls autoplay loop> 
+      <div class="project-card">
+        <div class="">
+          <p style = "font-weight: bold;">Cryptbound</p>
+          <p><b>Skills:</b> Unreal, GitHub</p>
+          <p>A 3D rogue-like puzzle shooter game playable on Playstation 4 and PC, developed in Unreal Engine 5 for a collaborative university module.</p>
+          <!--<video controls autoplay loop> 
             <source src = "videos/" type = "video/mp4">
-          </video>
-          <p>Cryptbound</p>
-          <p>Skills: Unreal, GitHub</p>
+          </video>-->         
         </div>
-
         <div class="text">
-          <p>A 3D roguelike puzzle game playable on Playstation 4 and PC developed in Unreal Engine 5 for a collaborative university module.</p>
           <p style = "font-weight:bold">In this project I achieved:</p>
           <ul>
-            <li>First project working as a small team in Unreal Engine.</li>
-            <li>Learnt valuable skills about time management and teamwork, as well as managing other peoples workload.</li>
-            <li>Designed collaboratively according to specific brief.</li>
-            <li>Greatly expanded my knowledge of Unreal Engine.</li>
+            <li>Expanding my knowledge of Unreal Engine and development for consoles.</li>
+            <li>Enhancing my communication and team work skills working collaboratively to produce a final product</li>
+            <li>Developing my time management and teamwork, by helping manage and oversee other's progress throughout development.</li>
+            <li>Designing and producing a product following a set design brief.</li>
           </ul>
         </div>
       </div>
 
-      <div class="group">
-        <div class="person-details">
-          <video controls autoplay loop> 
-            <source src = "videos/" type = "video/mp4">
-          </video>
-          <p>AI Programming</p>
-          <p>Skills: C#, Unity, GitHub, Aseprite</p>
-        </div>
-
-        <div class="text">
+      <div class="project-card">
+        <div class="">
+          <p style = "font-weight: bold;">AI Programming</p>
+          <p><b>Skills: </b> C#, Unity, GitHub, Aseprite</p>
           <p>A 2D boss battle for my AI programming university module.</p>
+          <!--<video controls autoplay loop> 
+            <source src = "videos/" type = "video/mp4">
+          </video>-->
+          
+        </div>
+
+        <div class="text">
           <p style = "font-weight:bold">In this project I achieved:</p>
           <ul>
-            <li>Developed behaviour trees, finite state machines, boids.</li>
-            <li>First 2D Game featuring combat.</li>
-            <li>Includes A* Pathfinding algorithm that adapts to the environment and gameplay.</li>
-            <li>Learnt a plethora of new skills in C#.</li>
+            <li>Using behaviour trees, finite state machines, boids to manage my AI's response to player behaviour.</li>
+            <li>Implementing an effective 2D combat system.</li>
+            <li>Including A* pathfinding that adapts to the changing environment and player's inputs.</li>
+            <li>Enhancing my proficiency while using C# in Unity.</li>
           </ul>
         </div>
       </div>
 
-      <div class="group">
-        <div class="person-details">
-          <video controls autoplay loop> 
+      <div class="project-card">
+        <div class="">
+          <p style = "font-weight:bold;">Sorcerer Skirmish</p>
+          <p><b>Skills: </b>C#, Unity, GitHub, Aseprite</p>
+          <p>A hyper-casual mobile game featuring endless difficulty progression developed individually for my university module, Mobile game Development.</p>
+          <!--<video controls autoplay loop> 
             <source src = "videos/" type = "video/mp4">
-          </video>
-          <p>Sorcerer Skirmish</p>
-          <p>Skills: C#, Unity, GitHub, Aseprite</p>
+          </video>-->
+          
         </div>
-
         <div class="text">
-          <p>A hyper-casual mobile game featuring endless difficulty progression developed individually for a university module.</p>
           <p style = "font-weight:bold">In this project I achieved:</p>
           <ul>
-            <li>First mobile game developed in Unity using C#.</li>
-            <li>Gained knowledge of external frameworks in Unity such as Cinemachine and CandyCoded.</li>
-            <li>Utilised Mobile Features such as touchscreen, gyro controls and vibration.</li>
-            <li>Learnt the process of releasing games on the google play store.</li>
+            <li>Creating an enjoyable game in Unity that is playable on Windows and Android phones. </li>
+            <li>Gaining knowledge of external frameworks in Unity such as Cinemachine and CandyCoded.</li>
+            <li>Implementing mobile features such as touchscreen, gyro controls and vibration.</li>
+            <li>Learning the process of releasing games on the Google Play Store.</li>
           </ul>
         </div>
       </div>
 
-      <div class="group">
-        <div class="person-details">
-          <video controls autoplay loop> 
-            <source src = "videos/" type = "video/mp4">
-          </video>
-          <p>Ice Mania</p>
-          <p>Skills: JavaScript, HTML, CSS, Visual Studio Code, Github, Aseprite</p>
-        </div>
-
-        <div class="text">
+      <div class="project-card">
+        <div class="">
+          <p style = "font-weight:bold">Ice Mania</p>
+          <p><b>Skills: </b> JavaScript, HTML, CSS, Visual Studio Code, Github, Aseprite</p>
           <p>A puzzle game where the player has to slide blocks through levels to the goal for a university module.</p>
+          <!--<video controls autoplay loop> 
+            <source src = "videos/" type = "video/mp4">
+          </video>-->
+        </div>
+        <div class="text">
           <p style = "font-weight:bold">In this project I achieved:</p>
           <ul>
-            <li>Used the 3JS library to create a 3D Web Game.</li>
-            <li>First time fully utilising object orientated programming.</li>
-            <li>Gained expereince in HTML, CSS, and JavaScript.</li>
+            <li>Expandning my knowldege of wed development using HTML, CSS, and JavaScript (Three.js) to create a 3D Web Game.</li>
+            <li>Utilising object orientated programming to design and create multiple puzzle levels.</li>
           </ul>
         </div>
       </div>
 
 
-      <div class="group">
-        <div class="person-details">
-          <video controls autoplay loop> 
-            <source src = "videos/" type = "video/mp4">
-          </video>
-          <p>C++ Programming</p>
-          <p>Skills: C++, Visual Studio, GitHub, Aseprite</p>
-        </div>
-
-        <div class="text">
+      <div class="project-card">
+        <div class="">
+          <p style = "font-weight:bold">C++ Programming</p>
+          <p><b>Skills: </b> C++, Visual Studio, GitHub, Aseprite</p>
           <p>Used the SDL library in C++ to individually create a short RPG game for a university module.</p>
+          <!--<video controls autoplay loop> 
+            <source src = "videos/" type = "video/mp4">
+          </video>-->
+        </div>
+        <div class="text">
           <p style = "font-weight:bold">In this project I achieved:</p>
           <ul>
-            <li>First game programmed without a game engine.</li>
-            <li>Gained valuable experience and knowledge in C++.</li>
-            <li>Features include tilemaps, collision, text, and music.</li>
+            <li>Gaining experience in developing games without the aid of a game engine.</li>
+            <li>Enhancing my proficiency using C++ and SDL2.</li>
+            <li>Implementing amd optimising a variety of game features including: tilemaps, collision detection, GUI, and audio.</li>
           </ul>
         </div>
       </div>
 
-      <div class="group">
-        <div class="person-details">
-          <video controls autoplay loop> 
+
+      <div class="project-card">
+        <div class="">
+          <p style = "font-weight:bold">Ruinscale</p>
+          <p><b>Skills: </b> Unity, GitHub, Aseprite</p>
+          <p>A 2D platformer collaboratively made in Unity as a submission for the GMTK 2024 game jam.</p>
+          <!--<video controls autoplay loop> 
             <source src = "videos/" type = "video/mp4">
-          </video>
-          <p>Ruinscale</p>
-          <p>Skills: C#, Unity, GitHub, Aseprite</p>
+          </video>-->          
         </div>
 
         <div class="text">
-          <p>A 2D platformer collaboratively made in Unity with a unique concept.</p>
           <p style = "font-weight:bold">In this project I achieved:</p>
           <ul>
-            <li>Created throughout the course of 48 hours for the game jam: GMTK 2024.</li>
-            <li>All art was made by me in Aseprite</li>
-            <li>Concept and design created collaboratively.</li>
+            <li>Developing my proficiency with Aseprite creating all of the game's 2D art and animations.</li>
+            <li>Gaining experience working in a team with people of different disciplines to efficiently split the workload of the project.</li>
+            <li>Working collaboratively to design and create an enjoyable game fitting to the theme within the short time frame of the game jam.</li>
           </ul>
         </div>
       </div>
       
 
-      <div class="group">
-        <div class="person-details">
-          <video controls muted loop> 
+      <div class="project-card">
+        <div class="">
+          <p style = "font-weight:bold">Bubble Brawl</p>
+          <p><b>Skills: </b> Aseprite, GitHub</p>
+          <p>A multiplayer game made in 48 hours using C++, based on the theme "Bubble" for Global Game Jam 2025.</p>
+          <!--<video controls muted loop> 
             <source src = "videos/" type = "video/mp4">
-          </video>
-          <p>Bubble Brawl</p>
-          <p>Skills: Aseprite, GitHub</p>
+          </video>-->
+          
         </div>
 
         <div class="text">
-          <p>A multiplayer game made in 72 hours in C++, based on the theme "Bubble" for Global Game Jam 2025.</p>
-          <p style = "font-weight:bold">This project was a great experience to:</p>
+          <p style = "font-weight:bold">In this project I achieved:</p>
           <ul>
-            <li>Won best technical achievement at BCU for Global Game Jam 2025.</li>
-            <li>All art and animations were made by me.</li>
-            <li>First tilemap made by me that tiles well and can be used to make a wide range of levels that play differently.</li>
+            <li>Our team winning Best Technical Achievement at Birmingham City University for the game jam.</li>
+            <li>Working collaboratively as part of a team with people from other disciplines to manage roles within development</li>
+            <li>Practise time management and organistaion skills, splitting the workload over efficiently over the 48 hours</li>       
+            <li>Creating all 2D art and animations for the project.</li>
+            <li>Developing my level design skills by drawing and designing mulptiple tile maps for different levels</li>
           </ul>
         </div>
-        <a href="https://iggy787.itch.io/bubble-brawl">
+       <!-- <a href="https://iggy787.itch.io/bubble-brawl">
           <i class="fa-solid fa-gamepad"></i>
           <span>Itch.io</span>
         </a>
@@ -347,57 +245,7 @@
           <i class="fa-solid fa-globe"></i>
           <span>GGJ 2025</span>
         </a>
+      -->
       </div>
-
-      
-     <!-- SECTION 4: WIPs 
-     <section id="wips" class="testimony-section">
-      <h2>Works in Progress</h2>
-      
-      <div class="group">
-        <div class="person-details">
-          <video controls autoplay loop> 
-            <source src = "videos/" type = "video/mp4">
-          </video>
-          <p>Dungeon of The Dark Knight</p>
-          <p>Skills: C#, Unity, GitHub, Aseprite</p>
-        </div>
-
-        <div class="text">
-          <p></p>
-          <p style = "font-weight:bold">So far, I have achieved:</p>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-        </div>
-      </div>
-
-    </section>-->
-
-    <!-- SECTION 5: Contact -->
-    <!--<sction id="contact" class="contact-section">
-      <h2>Contact</h2>
-
-      <div class="group">
-        
-
-        <form>
-          <label for="name">Name</label>
-          <input type="text" id="name">
-
-          <label for="email">Email</label>
-          <input type="email" id="email">
-
-          <label for="message">Message</label>
-          <textarea id="message" cols="30" rows="10"></textarea>
-
-          <button type="submit">Send Message</button>
-        </form>
-      </div>
-    </section>-->
-  </main>
 </body>
 </html>
