@@ -23,42 +23,43 @@ body {
 
 .hero {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
   padding: 3rem 2rem;
   background-color: #e4f0fc;
-  flex-wrap: wrap;
-  gap: 2rem;
-}
-
-@media (max-width: 768px) {
-   .hero {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .hero-text {
-    max-width: 100%;
-    padding: 0 1rem;
-  }
-
-  .hero-image {
-    max-width: 80%;
-  }
 }
 
 .hero-text {
+  flex: 1 1 300px;
   max-width: 600px;
+  padding: 1rem;
 }
 
 .hero-image {
-  max-width: 100%;
-  width: 300px;
+  flex: 1 1 250px;
+  max-width: 300px;
+  width: 100%;
   height: auto;
   border-radius: 10px;
   display: block;
-  margin: 0 auto;
+  margin: 1rem auto;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text, .hero-image {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .hero-image {
+    max-width: 80vw;
+  }
 }
 
 .skills,
