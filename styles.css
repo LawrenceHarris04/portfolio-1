@@ -27,7 +27,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 3rem 2rem;
-  background-color: #e4f0fc;
+  background-color: #c3e9ff;
 }
 
 .hero-text {
@@ -43,7 +43,8 @@ body {
   height: auto;
   border-radius: 10px;
   display: block;
-  margin: 1rem auto;
+  margin-left: auto;
+  margin-right: 0;
 }
 
 @media (max-width: 768px) {
