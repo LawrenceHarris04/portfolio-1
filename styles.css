@@ -26,7 +26,16 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 3rem 2rem;
-  background-color: #c3e9ff; /* brighter hero background */
+  background-color: #e4f0fc;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 .hero-text {
